@@ -1,0 +1,63 @@
+{
+  "name": "BaseApp",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "lint": "eslint .",
+    "start": "react-native start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@gorhom/bottom-sheet": "^5.2.8",
+    "@react-native-masked-view/masked-view": "^0.2.9",
+    "@react-navigation/bottom-tabs": "^7.9.0",
+    "@react-navigation/elements": "^2.9.3",
+    "@react-navigation/native-stack": "^7.9.0",
+    "@reduxjs/toolkit": "^2.11.2",
+    "axios": "^1.13.2",
+    "babel-plugin-module-resolver": "^5.0.2",
+    "lodash": "^4.17.21",
+    "react": "19.0.0",
+    "react-hook-form": "^7.69.0",
+    "react-native": "0.78.0",
+    "react-native-device-info": "^15.0.1",
+    "react-native-gesture-handler": "^2.29.1",
+    "react-native-keyboard-aware-scroll-view": "^0.9.5",
+    "react-native-linear-gradient": "^2.8.3",
+    "react-native-paper": "^5.14.5",
+    "react-native-reanimated": "^3.19.4",
+    "react-native-safe-area-context": "^5.6.2",
+    "react-native-screens": "^4.9.0",
+    "react-native-skeleton-placeholder": "^5.2.4",
+    "react-native-svg": "^15.15.1",
+    "react-redux": "^9.2.0",
+    "whatwg-fetch": "^3.6.20"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.25.2",
+    "@babel/preset-env": "^7.25.3",
+    "@babel/runtime": "^7.25.0",
+    "@react-native-community/cli": "15.0.1",
+    "@react-native-community/cli-platform-android": "15.0.1",
+    "@react-native-community/cli-platform-ios": "15.0.1",
+    "@react-native/babel-preset": "^0.78.0",
+    "@react-native/eslint-config": "^0.78.0",
+    "@react-native/metro-config": "0.78.0",
+    "@react-native/typescript-config": "0.78.0",
+    "@types/jest": "^29.5.13",
+    "@types/lodash": "^4.17.21",
+    "@types/react": "^19.0.0",
+    "@types/react-test-renderer": "^19.0.0",
+    "eslint": "^8.57.1",
+    "jest": "^29.6.3",
+    "prettier": "^3.7.4",
+    "react-native-svg-transformer": "^1.5.2",
+    "react-test-renderer": "19.0.0",
+    "typescript": "5.0.4"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

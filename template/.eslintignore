@@ -1,0 +1,10 @@
+node_modules
+.env*
+.eslintrc.js
+babel.config.js
+metro.config.js
+react-native.config.js
+jest.config.js
+rn-range-slider
+modules
+react-native-country-codes-picker
